@@ -10,7 +10,7 @@
     <meta name="author" content="xy">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
     <link rel="icon" href="">
-	<title>上海市闸北区第一中心小学</title>
+	<title>中国上海市闸北区第一中心小学</title>
 	<link rel="stylesheet" type="text/css" href="static/style/bootstrap.min.css">
 	<!--[if lte IE 7]>
 	<meta http-equiv="refresh" content="0;URL=http://<%=Request.ServerVariables("SERVER_NAME") %>/upgrade.html"/>
