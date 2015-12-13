@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title></title>
+     <style type="text/css">
+        div#adContainer {
+			border:1px solid #a5acb2;
+			width:80px;
+			height:100px;
+			overflow:hidden;
+		}
+     </style>
+  </head>
+  <body>
+     <div id="adContainer">
+     </div>
+     <script type="text/javascript">
+		var ads = new Array(["6/images/20.jpg",20], ["6/images/21.jpg",10],["6/images/22.jpg",20],["6/images/23.jpg",40]);
+		var sortFn = function(a,b) {
+			if(a[1] < b[1]) return -1;
+			if(a[1] > b[1]) return 1;
+			if(a[1] == b[1]) return 0;
+		}
+		ads.sort(sortFn);
+		var allWeight=0;
+		for (var i=0;i<ads.length;i++) {
+			allWeight += ads[i][1];
+		}
+		var currWeight = Math.round(Math.random()*(allWeight+1)+1);
+		var currURL;
+		
+		var minR = 0;
+		var maxR = 0;
+		for(var i=0;i<ads.length;i++) {
+			minR = maxR;
+			maxR +=ads[i][1];
+			ads[i][1] = maxR;
+		}
+		for (var i=0; i<ads.length;i++) {
+			if(currWeight==allWeight) {
+				currURL = ads[ads.length-1][0];
+			}
+			if(i!=0) {
+				if(currWeight>=ads[i-1][1]&&currWeight<ads[i][1]) {
+					currURL = ads[1][0];
+				}
+			}else {
+				if(currWeight>=0&&currWeight<ads[0][1]){
+					currURL = ads[0][0];
+				}
+			}
+		}
+		var oAdContainer = document.getElementById("adContainer");
+		oAdContainer.innerHTML = '<img src="'+ currURL + '"/>';
+     </script>
+  </body>
+</html>
