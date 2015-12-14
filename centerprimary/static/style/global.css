@@ -1,0 +1,55 @@
+
+
+body{
+	font-family: "微软雅黑",Arial,sans-serif;
+	color: #787878;
+	overflow-y:scroll;
+	min-width: 858px;
+	max-width: 1366px;
+}
+
+
+
+.modal-open .modal{
+	overflow-y:scroll; 
+}
+.topImg{
+	
+	width: 960px;
+	height: 300px;
+}
+.brand{
+	margin-top: 5px;
+	font-size: 20px;
+}
+.jumbotron{
+	padding: 30px 0 20px 0;
+	margin-bottom: 16px;
+}
+.jumbotron img{
+	width: 100%;
+}
+
+.sidebar{
+	position: fixed;
+	min-width: 212px;
+
+}
+.navbar{
+	min-height: 30px;
+
+}
+.navbar-nav>li>a{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.footer{
+	margin-bottom: 0px;
+}
+.round{
+	border-radius: 4px;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	padding-left: 5px;
+	
+}

@@ -1,0 +1,170 @@
+
+
+th,td,h3{
+	text-align: center;
+}
+
+
+.mainnav{
+	margin-bottom: 0;
+	border-bottom: 3px solid #ccc;
+}
+
+.nav-justified {
+background-color: #eee;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+/*.nav-justified li a{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}*/
+.wrapper{
+	/*margin-left: 30px;*/
+
+}
+.fileBox{
+	position: relative;
+
+}
+.chooseFile{
+	width: 65px;
+	height: 22px;
+	opacity: 0;
+	position: absolute;
+	top:0px;
+	left: 84px;
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+}
+.uploadpic{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 75px;
+	background-color: transparent;
+	opacity: 0;
+}
+.upload{
+	margin-left: 3px;
+	
+}
+.profileimg{
+	width: 100px;
+}
+.form-control{
+	height: 25px;
+	padding: 0px 5px;
+	margin-top:5px;
+}
+.nav-tabs{
+	margin-bottom: 15px;
+}
+
+.rectify{
+	display: inline;
+}
+.removeIcon{
+	right: 11px;
+	top: -13px;
+	color: black;
+	float: right;
+	width: 1px;
+}
+.areaname{
+	width: 200px;
+}
+
+.selectfunc{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+
+}
+
+.infoDisplay li{
+	list-style: none;
+	display: block;
+	float: left;
+	margin: 10px 5px 10px 5px;
+
+}
+.infoDisplay li label{
+	font-size: 20px;
+
+}
+
+.bottomNav{
+
+	text-align: center;
+
+}
+.jumppage{
+	box-shadow: none;
+	width: 30px;
+	border-radius: 6px;
+	border:1px solid #ddd;
+}
+#jumpto{
+	background-color:#5BC0DE;
+	color: white;
+	border-radius: 3px;
+	padding: 2px 4px;
+	margin:0 3px;
+	cursor: pointer;
+}
+#jumpto:hover{
+	background-color: #31B0D5;
+}
+#copyright p{
+	text-align: center;
+}
+
+.timeSize{
+	/*width: 80px;*/
+}
+
+
+.search{
+	height: 30px;
+	margin-top:-4px;
+}
+.print{
+	color:#FFF;
+	font-size:22px;
+	padding-top:0;
+}
+.print:hover{
+	color: #ddd;
+}
+.noticeDisplay li{
+	padding: 5px;
+	border-bottom:1px dashed #ddd;
+}
+.date{
+	float: right;
+}
+
+/*uploadFile*/
+.curriculum{
+	width: 900px;
+	text-align: center;
+	margin:0 auto;
+}
+
+.updateContent{
+	display: none;
+}
+/*CR slideToggle*/
+.forclick{
+	cursor: pointer;	
+}
+.slideToggle{
+	display: none;
+	position: relative;
+
+}
+
+

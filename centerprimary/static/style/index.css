@@ -1,0 +1,324 @@
+body{
+	width: 100%;
+	background:#99cccc url(../img/bg1.jpg) no-repeat fixed top;
+	background-size: cover;
+	font-family: "微软雅黑",Arial,sans-serif;
+	overflow-y:scroll;
+
+}
+a{
+	color: #999;
+
+}
+a:hover{
+	color: black;
+}
+th,td{
+	text-align: center;
+}
+ul,li{
+	list-style: none;
+}
+.banner img{
+	width: 100%;
+}
+#notice li{
+	cursor: pointer;
+}
+
+.navbar{
+	margin-bottom: 0;
+	min-height: 0;
+}
+.sidenav{
+	border-right: 1px solid #ccc;
+}
+/*.filter{ 
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000,endColorstr=#BF000000); 
+} */
+.navbar-ghost{
+	background-color: rgba(255,255,255,.3);
+
+}
+
+.navbar-ghost label{
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.navbar-brand{
+	padding-top: 9px;
+	padding-left: 0;
+}
+.navbar-brand img{
+	width: 30px;
+}
+.header{
+	height: 20px;
+}
+.login{
+	height: 30px;
+}
+#form1 label{
+	display: inline;
+}
+#txtUserName,#txtPwd{
+	width: 110px;
+}
+.schoolTitle{
+	background-color: rgba(255,255,255,.3);
+	/*text-align: center;*/
+	padding-right: 15px;
+}
+.schoolTitle img{
+	border-radius: 3px;
+	opacity: 0.9;
+	margin: 10px 15px;
+}
+.title{
+
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0 auto;
+	padding: 5px;
+	position: relative;
+	color: #fff;
+}
+.form-ctrl{
+	margin:1px 0;
+	float: right;
+}
+.form-ctrl input{
+	font-size:12px; 
+	height: 25px;
+	line-height: 25px;
+	padding: 0 0 0 5px;
+}
+.top-nav li a{
+	font-size: 15px;
+	padding: 5px 15px;
+}
+.panel-heading{
+	padding: 2px 15px;
+}
+.thumbnail{
+	background-color: rgba(255,255,255,.3);
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.carousel-inner img{
+	margin-bottom: 15px;
+}
+.caption{
+	text-align: center;
+}
+.caption img{
+	width: 120px;
+}
+.noticeDisplay{
+	padding: 5px;
+}
+.noticeDisplay li{
+	border-bottom: 1px dashed #999;
+	padding: 5px;
+}
+.noticeNav a{
+	text-decoration: none;
+
+}
+.imgdisplay{
+	width: 262px;
+}
+.date{
+	float: right;
+}
+#myCarousel{
+	display: none;
+}
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+    opacity: 0.8;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    background:#fcfcfc;
+    background: #fcfcfc -moz-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* FF3.6+ */
+    background: #fcfcfc -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#eee)); /* Chrome,Safari4+ */
+    background: #fcfcfc -webkit-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* Chrome10+,Safari5.1+ */
+    background: #fcfcfc -o-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* Opera11.10+ */
+    background: #fcfcfc -ms-linear-gradient(top, #fcfcfc 0%, #eee 100%); /* IE10+ */
+    background: #fcfcfc linear-gradient(top, #fcfcfc 0%, #eee 100%); /* W3C */
+    border:1px solid #ccc;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;  
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:100px;
+    /*max-height:45px;*/
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: 10px;
+    background: url(../img/button-previous.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: 5px;
+    background: url(../img/button-next.png) no-repeat;
+}
+/****************************************/
+.sidebar>li{
+	background-color: rgba(255,255,255,.3);
+	margin-bottom: 10px;
+	text-align: center;
+}
+.subMenu>a{
+	background-color: rgba(255,255,255,.3);
+	color: #999;
+}
+
+.selected>a{
+
+	color: black;
+	background-color: #eee;
+	
+}
+.dropdown-menu{
+	background-color: rgba(255,255,255,0.6);
+
+}
+.panel{
+	opacity: 0.8;
+}
+/*************CourseDisplay.html***************/
+.table-bg{
+	background-color: rgba(255,255,255,0.7);
+
+}
+
+.courseimg{
+	width: 200px;
+}
+.alignLeft{
+	display: block;
+	text-align: left;
+
+	height: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.cdetail{
+	min-height:300px; 
+}
+/*************StudentCenter.html***************/
+.timeline{
+	background:url("../img/line.png") repeat-y scroll 150px 0 transparent;
+	margin: 50px 0;
+	padding: 0;
+}
+.timeline li{
+	position: relative;
+	margin-bottom: 20px;
+
+}
+.timeline li .time{
+	position: absolute;
+    /*width: 90px;*/
+    text-align: right;
+    left: 0;
+    top: 10px;
+    color: #999;
+    font-size: 20px;
+}
+
+.timeline li .version{
+	position: absolute;
+	width: 130px;
+	text-align: right;
+	left: -30px;
+	top: 30px;
+	font-size: 30px;
+	line-height: 50px;
+	color: #3594cb;
+	overflow: hidden;
+
+}
+.timeline li .number{
+	position: absolute;
+	background:url("../img/dot.png") no-repeat scroll 0 0 transparent;
+	width: 56px;
+	height: 56px;
+	left: 127px;
+
+}
+.timeline li .content{
+	margin-left: 200px;
+}
+.timeline li .content pre{
+	background-color: #3594cb;
+	padding: 20px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+}
+/****************************************/
+/*DetailExample.asp*/
+.noticeContent{
+
+}
+.noticePoster,.noticeDate{
+	float: right;
+}
+/****************************************/
+.footer{
+/*	position: absolute;
+	bottom: 0;
+	left: 47%;*/
+	text-align: center;
+	color: #FFF;
+
+}
